@@ -105,3 +105,36 @@ body{
 .containerLink .Text a:hover{
     text-decoration: underline;
 }
+
+.mainFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-style: double;
+}
+
+.mainFooter a{
+    margin-top: 20px;
+}
+
+.mainFooter h3{
+    margin-bottom: -10px;
+}
+
+.mainFooter div{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.mainFooter a:hover{
+    text-decoration: underline;
+}
+
+
